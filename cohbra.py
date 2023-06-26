@@ -20,7 +20,7 @@ def create_line_chart(df, title):
         y=alt.Y('Actual', sort=None, title='Targets'),
         tooltip=[alt.Tooltip('Dates', title='Date'), alt.Tooltip('Actual', title='Target')]
     ).properties(
-        width=900  # Set the chart width to 900 pixels
+        width=2000  # Set the chart width to 900 pixels
     )
 
     # Add target line to chart

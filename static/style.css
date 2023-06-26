@@ -1,0 +1,30 @@
+/* Style the table */
+.dataframe {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table header */
+.dataframe th {
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the table rows */
+.dataframe tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* Style the table cells */
+.dataframe td {
+    padding: 8px;
+}
+
+/* Style the dividing line */
+hr {
+    color: black;
+}

@@ -125,7 +125,7 @@ option = st.sidebar.selectbox('Select an option',
 if option == 'Room Progress':
     
     charts = {
-        'Total Room Progress (Equipment, Room loading, Activities, Specs & Costs)': total_progress_with_specs_and_cost,
+        'Total Room Progress (Equipment, Room loading, Activities, Specs & Costs)': total_progress,
         'Rooms with all equipment planning done': dataentry_progress,
         'Rooms with all room loading done': roomloading_progress,
         'Rooms with all activities done': activity_room_progress,

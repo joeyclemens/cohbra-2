@@ -67,7 +67,7 @@ st.markdown(
 
 # Load data from CSV files
 total_progress = pd.read_csv('progress/total_progress.csv')
-total_progress_with_specs_and_cost = pd.read_csv('progress/total_progress with specs and cost.csv')
+
 dataentry_progress = pd.read_csv('progress/dataentry_progress.csv')
 roomloading_progress = pd.read_csv('progress/roomloading_progress.csv')
 activity_progress = pd.read_csv('progress/activity_progress.csv')

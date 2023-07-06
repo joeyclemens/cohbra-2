@@ -160,7 +160,7 @@ elif option == 'Progress':
         'Room Loading Progress': roomloading_progress,
         'Activity Progress': activity_progress,
         'Cost': cost_progress,
-        'ERM': erm_progress,
+        'ERM Progress': erm_progress,
     }
 
     chart_choice = st.sidebar.selectbox('Choose chart', list(charts.keys()))

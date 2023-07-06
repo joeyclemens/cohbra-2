@@ -73,15 +73,13 @@ roomloading_progress = pd.read_csv('progress/roomloading_progress.csv')
 activity_progress = pd.read_csv('progress/activity_progress.csv')
 cost_progress = pd.read_csv('progress/cost_progress.csv')
 activity_room_progress = pd.read_csv('progress/activity_room_progress.csv')
-
+erm_progress = pd.read_csv('progress/erm_progress.csv')
 ###################
 
 cost_total = pd.read_csv('progress/cost_progress_total.csv')
-
-
 spec_progress = pd.read_csv('progress/spec_progress.csv')
 spec_room_progress = pd.read_csv('progress/spec_room_progress.csv')
-
+erm_progress_total = pd.read_csv('progress/erm_progress_total.csv')
 
 ##################
 spec_audit = pd.read_csv('audit/spec_audit_progress.csv')
@@ -130,6 +128,7 @@ if option == 'Room Progress':
         'Rooms with all room loading done': roomloading_progress,
         'Rooms with all activities done': activity_room_progress,
         'Rooms with all costs done': cost_total,
+        'Rooms with all ERM Cats done': erm_progress_total,
     }
 
     chart_choice = st.sidebar.selectbox('Choose chart', list(charts.keys()))
@@ -161,6 +160,7 @@ elif option == 'Progress':
         'Room Loading Progress': roomloading_progress,
         'Activity Progress': activity_progress,
         'Cost': cost_progress,
+        'ERM': erm_progress,
     }
 
     chart_choice = st.sidebar.selectbox('Choose chart', list(charts.keys()))

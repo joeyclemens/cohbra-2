@@ -106,9 +106,10 @@ st.sidebar.write('<a href="https://mjmedical.sharepoint.com/:x:/s/COHBRA/EeyfkMU
 st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 
 # Add textbox to sidebar
-st.sidebar.markdown("<u>Previous KPI Tracker/dashboard</u>", unsafe_allow_html=True)
+st.sidebar.markdown("<u>Previous KPI Tracker/Dashboard</u>", unsafe_allow_html=True)
 # Add hyperlink to sidebar
-st.sidebar.write('<a href="https://mjmedical.sharepoint.com/:x:/s/COHBRA/Eb4o_yhqVspHjEDxC7hptYYBy4ryOXYl8nmXwHW0wT12Vw?e=tMaVJw&nav=MTVfezc5MUFEMjVBLTdDMUMtNEJERS1CRjU1LUM0QUMxQjgxQzcwRX0" style="color: black; text-decoration: none;"><b>• Specs</b></a>', unsafe_allow_html=True)
+st.sidebar.write('<a href="https://mjmedical.sharepoint.com/:x:/s/COHBRA/Eb4o_yhqVspHjEDxC7hptYYBy4ryOXYl8nmXwHW0wT12Vw?e=8xe86r" style="color: black; text-decoration: none;"><b>• Specs</b></a>', unsafe_allow_html=True)
+st.sidebar.write('<a href="https://mjm-kpi-tracker.streamlit.app/" style="color: black; text-decoration: none;"><b>• Specs</b></a>', unsafe_allow_html=True)
 # Add a dividing line
 st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 

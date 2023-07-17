@@ -127,9 +127,10 @@ if option == 'Room Progress':
         'Rooms with all equipment planning done': dataentry_progress,
         'Rooms with all room loading done': roomloading_progress,
         'Rooms with all activities done': activity_room_progress,
+        'Rooms with all Specs done': spec_room_progress,
         'Rooms with all costs done': cost_total,
         'Rooms with all ERM Cats done': erm_progress_total,
-        'Rooms with all Specs done': spec_room_progress,
+        
     }
 
     chart_choice = st.sidebar.selectbox('Choose chart', list(charts.keys()))

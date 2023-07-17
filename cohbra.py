@@ -73,11 +73,11 @@ activity_progress = pd.read_csv('progress/activity_progress.csv')
 cost_progress = pd.read_csv('progress/cost_progress.csv')
 activity_room_progress = pd.read_csv('progress/activity_room_progress.csv')
 erm_progress = pd.read_csv('progress/erm_progress.csv')
+spec_room_progress = pd.read_csv('progress/spec_room_progress.csv')
 ###################
 
 cost_total = pd.read_csv('progress/cost_progress_total.csv')
 spec_progress = pd.read_csv('progress/spec_progress.csv')
-spec_room_progress = pd.read_csv('progress/spec_room_progress.csv')
 erm_progress_total = pd.read_csv('progress/erm_progress_total.csv')
 
 ##################
@@ -90,7 +90,7 @@ room_loading_audit = pd.read_csv('audit/room_loading_audit_progress.csv')
 #tables = {
 #    'Total Room completion' : overall,
 #    'Costs' : costs,
-#    #'Specs' : specs,
+#    'Specs' : specs,
 #    'Priority Rooms': Priority_Rooms,
 #    'Audit' : overall_audit,
 #}

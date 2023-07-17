@@ -108,7 +108,7 @@ st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 # Add textbox to sidebar
 st.sidebar.markdown("<u>Priorities:</u>", unsafe_allow_html=True)
 # Add hyperlink to sidebar
-st.sidebar.write('<a href="" style="color: black; text-decoration: none;"><b>Specs</b></a>', unsafe_allow_html=True)
+st.sidebar.write('style="color: black; text-decoration: none;"><b>Specs</b>', unsafe_allow_html=True)
 # Add a dividing line
 st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 

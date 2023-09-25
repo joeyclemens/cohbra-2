@@ -102,7 +102,9 @@ room_loading_audit = pd.read_csv('audit/room_loading_audit_progress.csv')
 st.sidebar.markdown("<u>Links:</u>", unsafe_allow_html=True)
 # Add hyperlink to sidebar
 st.sidebar.write('<a href="https://mjmedical.sharepoint.com/:x:/s/COHBRA/EeyfkMUA6vpBv_03OhwQUI0BS7iEPk1le9DfTPkhMBLGBA?e=piBaKY&nav=MTVfezM0ODJDMUUyLUNBMUItNEM5NC04RkVCLUU4QUY5Njc4MkYyOX0" style="color: black; text-decoration: none;"><b>KPI Tracker</b></a>', unsafe_allow_html=True)
-st.sidebar.write('<a href="F:/MJM Documents/Projects/Template/Products/Database/MJM_Template_181119.accdb" style="color: black; text-decoration: none;"><b>Database</b></a>', unsafe_allow_html=True)
+file_path = "file:///F:/MJM Documents/Projects/Template/Products/Database/MJM_Template_181119.accdb"
+st.sidebar.write(f'<a href="{file_path}" style="color: black; text-decoration: none;"><b>Database</b></a>', unsafe_allow_html=True)
+
 # Add a dividing line
 st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 

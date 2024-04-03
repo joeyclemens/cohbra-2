@@ -11,8 +11,8 @@ class App:
 
         # Define the directories containing the CSV files
         self.csv_dirs = [
-            r"C:/Users/Joey/Desktop/Github/cohbra 2/progress",
-            r"C:/Users/Joey/Desktop/Github/cohbra 2/audit"
+            r"C:/Users/Joey/Desktop/cohbra-2/progress"
+
         ]
 
         # Get a list of all CSV files in the directories
@@ -123,7 +123,7 @@ class App:
                 writer.writerows(rows)
 
             # Push the updated CSV file to Git
-            repo = git.Repo(r"C:/Users/Joey/Desktop/Github/cohbra 2/.git")
+            repo = git.Repo(r"C:/Users/Joey/Desktop/cohbra-2/.git")
             if repo.is_dirty(path=csv_file):  # Check if the file has changes to commit
                 repo.git.add(csv_file)
                 repo.git.commit(m="Update {}".format(os.path.basename(csv_file)))

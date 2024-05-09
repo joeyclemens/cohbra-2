@@ -57,7 +57,7 @@ link_url = "https://youshouldreallybedoingsomework.netlify.app/"
 
 # Display title as a link
 st.markdown(
-    f'<a href="{link_url}" style="color: white; text-decoration: none;"><h1>KPI Dashboard</h1></a>',
+    f'<a href="{link_url}" style="color: white; text-decoration: none;"><h1>KPI Dashboard 2024</h1></a>',
     unsafe_allow_html=True
 )
 

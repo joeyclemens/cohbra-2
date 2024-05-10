@@ -67,6 +67,7 @@ st.markdown(
 
 # Load data from CSV files
 total_progress = pd.read_csv('progress/total_progress.csv')
+total_progress_DERLCO = pd.read_csv('progress/total_progress_DE_RL_COST.csv')
 dataentry_progress = pd.read_csv('progress/dataentry_progress.csv')
 roomloading_progress = pd.read_csv('progress/roomloading_progress.csv')
 activity_progress = pd.read_csv('progress/activity_progress.csv')
@@ -128,6 +129,7 @@ if option == 'Room Progress':
     
     charts = {
         'Total Room Progress (Equipment, Room loading, Activities, Specs, Costs & ERM)': total_progress,
+        'Total Room Progress (Equipment, Room loading & Costs)': total_progress_DERLCO,
         'Rooms with all equipment planning done': dataentry_progress,
         'Rooms with all room loading done': roomloading_progress,
         'Rooms with all activities done': activity_room_progress,

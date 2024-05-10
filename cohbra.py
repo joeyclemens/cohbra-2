@@ -109,7 +109,7 @@ st.sidebar.markdown("<hr>", unsafe_allow_html=True)
 st.sidebar.markdown("<u>Priorities:</u>", unsafe_allow_html=True)
 st.sidebar.write('<a href="https://mjmedical.sharepoint.com/:x:/s/COHBRA/EeyfkMUA6vpBv_03OhwQUI0BS7iEPk1le9DfTPkhMBLGBA?e=IheerU&nav=MTVfezI4MkIwOTM3LUU4MjUtNEYzOS1CNDBDLTNCMDA4MENEQjhEMX0" style="color: black; text-decoration: none;"><b>Specs</b></a>', unsafe_allow_html=True)
 st.sidebar.write('<a href="#" style="color: black; text-decoration: none;"><b>Activities</b></a>', unsafe_allow_html=True)
-st.sidebar.write('<a href="#" style="color: black; text-decoration: none;"><b>Room Loading</b></a>', unsafe_allow_html=True)
+
 # Add hyperlink to sidebar
 st.sidebar.write('<b style="color: black; text-decoration: none;"></b>', unsafe_allow_html=True)
 # Add a dividing line
